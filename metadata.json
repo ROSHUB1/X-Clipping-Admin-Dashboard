@@ -1,0 +1,7 @@
+{
+  "name": "ClipHub Admin Dashboard",
+  "description": "Production-grade admin dashboard for managing creator content submissions, withdrawal requests, and clip approvals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
