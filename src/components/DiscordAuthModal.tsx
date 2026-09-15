@@ -58,7 +58,7 @@ export const DiscordAuthModal: React.FC<DiscordAuthModalProps> = ({
       // Dynamic Redirect URI based on whatever website URL the user is currently on (Netlify, Vercel, Localhost, or AI Studio)
       const currentOrigin = window.location.origin;
       const redirectUri = currentOrigin.endsWith('/') ? currentOrigin : `${currentOrigin}/`;
-      const clientId = '1538421580340789378';
+      const clientId = '1547403476039114762';
 
       // Use response_type=token so it works directly on static hosts like Netlify without needing a backend server
       const params = new URLSearchParams({
